@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    padding : 0;
+    margin : 0;
+    box-sizing : border-box;
+    font-family : 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #f7f8fd;
+}
+
+.container{
+    width: 100%;
+}
+
+.sub-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3em;
+}
+
+.budget-container, .expenses-container{
+    background-color: #fff;
+    padding : 1.25em 0.9em;
+    border-radius: 0.3em;
+    box-shadow : 0 0.6em 1.2em rgba(28, 0, 80, 0.06);
+    height: 250px;
+    top: 20px;
+    width: 500px;
+}
+
+.balance-container{
+    background-color: #587ef4;
+    color: #fff;
+    border-radius: 0.3em;
+    box-shadow: 0 0.6em 1.2em rgba(28, 0, 80, 0.06);
+    margin: 2em 0;
+    padding: 1.2em;
+    width: 1230px;
+    position: relative;
+    left: 150px;
+}
+
+.list{
+    background-color: #fff;
+    padding: 1.8em 1.2em;
+    box-shadow: 0 0.6em 1.2em rgba(28, 0, 80, 0.06);
+    border-radius: 0.6em;
+    width : 1240px;
+    position: relative;
+    left: 150px;
+}
+
+#exp-value{
+    text-align: center;
+    position: relative;
+    left: 5px;
+    top: -50px;
+}
+
+#bal-amt{
+    text-align: center;
+    position: relative;
+    left: 500px;
+    top: -100px;
+}
+
+#total-budg{
+    text-align: center;
+    position: relative;
+    left: -500px;
+}
+
+.submit{
+    font-size: 1em;
+    margin-top: 0.8em;
+    background-color: #587ef4;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 0.6em 1.2em;
+    border-radius: 0.3em;
+    cursor: pointer;
+}
+
+.total-number , .product-name, .product-cost{
+    width: 200px;
+    height: 40px;
+}
+
+.product-cost{
+    position: relative;
+    top: 50px;
+    left: -204px;
+}
+
+#check-amt{
+    position: relative;
+    top:50px;
+    left: 30px;
+}
+
+#set-budget{
+    position: relative;
+    top:60px;
+    left: -170px;
+}
+
+.budget-container{
+    position: relative;
+    left: 150px;
+}
+
+.expenses-container{
+    position: relative;
+    left: 80px;
+}
