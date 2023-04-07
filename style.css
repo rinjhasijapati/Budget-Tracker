@@ -91,6 +91,11 @@ body{
     height: 40px;
 }
 
+.total-number{
+    position: relative;
+    top: -15px;
+}
+
 .product-cost{
     position: relative;
     top: 50px;
@@ -105,7 +110,7 @@ body{
 
 #set-budget{
     position: relative;
-    top:60px;
+    top:40px;
     left: -170px;
 }
 
